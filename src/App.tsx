@@ -1,4 +1,5 @@
-import React from "react";
+import Greeting from "component/greeting";
+
 export default function App() {
-  return <span>Hello World!</span>;
+  return <Greeting />
 }

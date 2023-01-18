@@ -5,7 +5,10 @@
         "jsx": "preserve",
         "module": "ESNext",
         "moduleResolution": "node",
-        // "baseUrl": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "src/*": ["src/*"]
+        },
         "types": ["node", "react/next", "react-dom/next", "jest"],
         "allowJs": true,
         "sourceMap": true,
